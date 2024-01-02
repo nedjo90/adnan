@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Adnan Ozdemir - Profil financier</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts - Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        /* Ajout de styles CSS personnalisés pour les effets de survol */
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style distinctif pour les titres */
+        .section-title {
+            color: #007bff;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Mise en avant des titres dans les cards */
+        .card-title {
+            color: #007bff;
+        }
+
+        /* Retrait des paragraphes dans les cards */
+        .card-text {
+            margin-bottom: 0; /* Supprime la marge sous le paragraphe */
+        }
+
+        /* Footer stylisé */
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Photo de profil ronde */
+        .rounded-circle {
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header class="text-center bg-primary text-white py-5">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-center flex-column">
+            <h1>Adnan Ozdemir</h1>
+        </div>
+        <p class="lead">Senior Expert en Stratégie Comptable - Metz et périphérie</p>
+    </div>
+</header>
+
+<!-- Navigation Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#presentation">Présentation</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Éducation</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Presentation Section -->
+<section id="presentation" class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title text-primary mb-4">Présentation</h2>
+        <p>Bienvenue sur mon site professionnel. En tant que Senior Expert en Stratégie Comptable, je m'engage à créer des solutions financières innovantes pour optimiser les performances des entreprises. Avec plus de 5 ans d'expérience chez KPMG, j'ai apporté une expertise précieuse à la gestion stratégique des projets financiers, contribuant ainsi à la croissance des entreprises dans la région du Grand Est, en France.</p>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-primary mb-4">Expérience Professionnelle</h2>
+
+        <!-- KPMG -->
+        <div class="card mb-4">
+            <div class="card-header" id="kpmgHeader">
+                <h4 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#kpmgCollapse" aria-expanded="true" aria-controls="kpmgCollapse">
+                        KPMG Région Est - Expertise Service Conseil
+                    </button>
+                </h4>
+            </div>
+            <div id="kpmgCollapse" class="collapse" aria-labelledby="kpmgHeader" data-parent="#experience">
+                <div class="card-body">
+                    <p class="card-title">Chargé de clientèle | Novembre 2018 - Présent (5 ans 3 mois)</p>
+                    <p class="card-text">Diriger des équipes et mettre en place des solutions financières innovantes ont été les axes majeurs de mon rôle chez KPMG. J'ai contribué activement à la réussite de projets financiers stratégiques, positionnant l'entreprise en tant que leader dans le domaine.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Batt & Associés -->
+        <div class="card mb-4">
+            <div class="card-header" id="battAssociésHeader">
+                <h4 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#battAssociésCollapse" aria-expanded="false" aria-controls="battAssociésCollapse">
+                        Batt & Associés - Manager Transaction Advisory Services
+                    </button>
+                </h4>
+            </div>
+            <div id="battAssociésCollapse" class="collapse" aria-labelledby="battAssociésHeader" data-parent="#experience">
+                <div class="card-body">
+                    <p class="card-title">Manager Transaction Advisory Services | Janvier 2018 - Mai 2018 (5 mois)</p>
+                    <p class="card-text">En tant que Manager, j'ai dirigé l'équipe des Services de Conseil en Transactions, facilitant des transactions financières complexes avec succès. Mon engagement envers l'efficacité opérationnelle a renforcé la position de Batt & Associés sur le marché.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUDITEURS ASSOCIES CONSEILS -->
+        <div class="card mb-4">
+            <div class="card-header" id="auditeursAssociesHeader">
+                <h4 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#auditeursAssociesCollapse" aria-expanded="false" aria-controls="auditeursAssociesCollapse">
+                        AUDITEURS ASSOCIES CONSEILS - Auditeur financier
+                    </button>
+                </h4>
+            </div>
+            <div id="auditeursAssociesCollapse" class="collapse" aria-labelledby="auditeursAssociesHeader" data-parent="#experience">
+                <div class="card-body">
+                    <p class="card-title">Auditeur financier | Janvier 2017 - Juillet 2017 (7 mois)</p>
+                    <p class="card-text">Stagiaire en audit de sociétés commerciales et parapubliques.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ... autres expériences ... -->
+
+    </div>
+</section>
+
+<!-- Compétences Section -->
+<section id="competences" class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title text-primary mb-4">Compétences</h2>
+        <p class="lead">Mes compétences clés dans le domaine financier comprennent :</p>
+        <ul class="list-group list-group-horizontal-md">
+            <li class="list-group-item">Microsoft Excel</li>
+            <li class="list-group-item">Management</li>
+            <li class="list-group-item">Anglais (Professional Working)</li>
+            <li class="list-group-item">Français (Native or Bilingual)</li>
+            <li class="list-group-item">Turc (Limited Working)</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Éducation Section -->
+<section id="education" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-primary mb-4">Éducation</h2>
+        <!-- ICN Business School -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h4 class="card-title">ICN Business School</h4>
+                <p class="card-text">Programme grande école, Comptabilité et commerce / gestion · (2015 - 2017)</p>
+            </div>
+        </div>
+        <!-- Faculté de Droit, Sciences économiques et Gestion de Nancy -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h4 class="card-title">Faculté de Droit, Sciences économiques et Gestion de Nancy</h4>
+                <p class="card-text">Licence économie, Comptabilité et commerce / gestion · (2012 - 2015)</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title text-primary mb-4">Contact</h2>
+        <p class="lead">N'hésitez pas à me contacter via les liens ci-dessous :</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="mailto:ozdemir.adnan.90@gmail.com" class="btn btn-primary">Envoyer un email</a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/adnanozdemir-634743b6" class="btn btn-primary">Profil LinkedIn</a></li>
+        </ul>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="container">
+        <p class="mb-0">Suivez-moi sur les réseaux sociaux :</p>
+        <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a href="#" class="btn btn-outline-primary rounded-circle"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="btn btn-outline-primary rounded-circle"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="btn btn-outline-primary rounded-circle"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    // Activer le plugin Collapse de Bootstrap
+    $('.collapse').collapse();
+</script>
+
+</body>
+</html>
